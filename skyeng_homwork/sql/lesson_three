@@ -1,0 +1,5 @@
+CREATE TABLE `skyeng_lesson` (`id` int(5) NOT NULL AUTO_INCREMENT, PRIMARY KEY(`id`), `lesson_name` VARCHAR (50), `lesson_numeral` INT(5));
+
+CREATE TABLE `skyeng_numeral` (`id` INT(5) NOT NULL AUTO_INCREMENT, PRIMARY KEY(`id`), `numeral` int(5), `numeral_name` VARCHAR(50));
+
+
