@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+$root = $_SERVER['DOCUMENT_ROOT'];
 ?>
 <html lang="ru">
 
@@ -27,7 +27,7 @@ if (!empty($_GET['v']) and is_numeric($_GET['v'])) {
     exit;
 }
 
-        include('/var/www/html/connection.php'); // coonection db
+        include("$root/connection.php"); // coonection db
 
 $user_tb = mysqli_query($link, "SELECT * FROM `user`");
 $i=false;
