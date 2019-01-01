@@ -27,7 +27,7 @@ if (!empty($_GET['v']) and is_numeric($_GET['v'])) {
     exit;
 }
 
-        include("$root/connection.php"); // coonection db
+        include("$root/php/connection.php"); // coonection db
 
 $user_tb = mysqli_query($link, "SELECT * FROM `user`");
 $i=false;

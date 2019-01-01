@@ -1,6 +1,6 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
-include("$root/connection.php"); // coonection db
+include("$root/php/connection.php"); // coonection db
 session_start();
 
 if (isset($_POST['start_sql_request'])) {
@@ -25,7 +25,7 @@ if (isset($_POST['start_sql_request'])) {
 
   <body>
 
-  <?php include("$root/container.php"); ?>
+  <?php include("$root/php/container.php"); ?>
 <div class="inted">
 
 

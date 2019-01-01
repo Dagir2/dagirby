@@ -1,3 +1,3 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
- include("$root/connection.php"); // coonection db
+ include("$root/php/connection.php"); // coonection db

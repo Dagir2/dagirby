@@ -13,7 +13,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 
 <body>
 <?php
-include("$root/connection.php"); // coonection db
+include("$root/php/connection.php"); // coonection db
 
     $password = $_POST[password];
     $v =$_GET['v'];
