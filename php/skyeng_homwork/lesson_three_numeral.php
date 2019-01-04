@@ -11,7 +11,7 @@ if (isset($_POST['start_sql_request'])) {
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/container.css">
+    <link rel="stylesheet" href="/php/css/container.css">
 
     <title>Numeral</title>
   </head>
