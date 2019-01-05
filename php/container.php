@@ -34,7 +34,7 @@ $i = 0;
       echo "<ul>";
       echo '<li><a href ="'.$links['link'].'">'.$links['title'].'</a></li>';
       while ($links = mysqli_fetch_assoc($link_dagir)) {
-          echo '<a href ="'.$links['link'].'">'.$links['title'].'</a></li>';
+          echo '<li><a href ="'.$links['link'].'">'.$links['title'].'</a></li>';
       }
       echo "</ul>";
       $i++;
